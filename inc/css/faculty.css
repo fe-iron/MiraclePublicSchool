@@ -1,0 +1,199 @@
+*,html,body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 576px) { 
+
+        .top1 img{
+height: 70px;
+width: 70px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.top1 p{
+        font-size: 30px;
+    }
+
+}
+
+
+
+@media (max-width: 350px){
+    .top1 p{
+        font-size: 15px;
+        padding-top: 15px;
+    }
+
+        .top1 img{
+    height: 50px;
+    width: 50px;
+    }
+}
+.bg-warning {
+    background-color: #e4831f!important;
+  
+}
+
+
+
+.top ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.top1 img{
+height: 140px;
+width: 140px;
+
+}
+
+
+/*end of header css*/
+
+.navbar .navbar-nav .nav-link{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.bg-warning {
+    background-color: #e4831f!important;
+  
+}
+
+
+.text-warning{
+    color: #e4831f!important;
+}
+
+.btn-warning{
+    background-color: #e4831f!important;
+    border: none;
+    color: white;
+
+}
+/*end of navbar css*/
+
+
+
+.paddding-department {
+   background: linear-gradient(to right, rgb(123, 119, 160), rgb(105, 94, 220), rgb(95, 104, 171));
+    padding: 41px 100px;
+}
+.paddding-department p{
+    font-size: 1.2rem;
+}
+
+
+@media (max-width: 575.98px) {
+
+
+.paddding-department{
+    background: linear-gradient(to right, rgb(123, 119, 160), rgb(105, 94, 220), rgb(95, 104, 171));
+    padding: 40px 10px;
+}
+
+.paddding-department p{
+    font-size: 1rem;
+}
+
+
+}
+
+.educational .btn-block {
+    margin-top: -3rem;
+    z-index: 1;
+}
+
+.educational .card:hover {
+    -webkit-box-shadow: 0px 1px 12px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 12px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 12px 2px rgba(0,0,0,0.75);
+    transition: 1s;
+}
+.card img{
+    max-height: 200px;
+}
+
+ h2 {
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    
+    font-weight: bold;
+    position: relative;
+    margin: 30px 0 60px;
+}
+ h2::after {
+    content: "";
+    width: 60px;
+    position: absolute;
+    margin: 0 auto;
+    height: 3px;
+    background:#e4831f!important;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+}
+
+
+
+
+/*media query*/
+
+@media (min-width: 576px) and (max-width: 768px) { 
+
+.card h5{
+    font-size: 12px;
+}
+ 
+
+.card img{
+    height: 130px;
+ }
+
+ .card-text{
+    font-size:11px;
+ }
+}    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  
+.card img{
+    height: 200px;
+ }
+
+ .card-text{
+    font-size:13px;
+ }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+ 
+ .card img{
+    height: 150px;
+ }
+
+
+ .card-text{
+    font-size:13px;
+ }
+ }

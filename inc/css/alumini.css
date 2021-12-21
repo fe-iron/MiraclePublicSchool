@@ -1,0 +1,176 @@
+
+
+*,html,body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.paddding-alumini{
+    background-image: linear-gradient(to right, #b96c10 , #de9f11);
+    padding: 120px 10px;
+}
+
+
+.paddding-alumini p{
+	font-size: 1.2rem;
+}
+
+
+
+
+
+@media (max-width: 575.98px) {
+
+
+.paddding-alumini{
+    background-image: linear-gradient(to right, #b96c10 , #de9f11);
+    padding: 40px 10px;
+}
+
+.paddding-alumini p{
+    font-size: 1rem;
+}
+
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+p,label{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 576px) { 
+
+        .top1 img{
+height: 70px;
+width: 70px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.top1 p{
+        font-size: 30px;
+    }
+
+}
+
+
+
+.top ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+@media (max-width: 350px){
+    .top1 p{
+        font-size: 15px;
+        padding-top: 15px;
+    }
+
+        .top1 img{
+    height: 50px;
+    width: 50px;
+    }
+}
+.bg-warning {
+    background-color: #e4831f!important;
+  
+}
+
+
+
+.top1 img{
+height: 140px;
+width: 140px;
+
+}
+
+
+/*end of header css
+*/
+.navbar .navbar-nav .nav-link{
+    font-size: 20px;
+    color: white;
+}
+
+.navbar .navbar-nav .nav-item:hover{
+
+background-color:orange;
+border-radius: 5px;
+/*border-bottom: 2px solid white;
+*/}
+
+.bg-warning {
+    background-color: #e4831f!important;
+  
+}
+
+
+.text-warning{
+    color: #e4831f!important;
+}
+
+.btn-warning{
+    background-color: #e4831f!important;
+    border: none;
+    color: white;
+
+}
+
+
+
+/*end of navbar css*/
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #a6a6a7;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+form input ,form textarea{
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.75);
+
+}
+
+.alumini .btn-success{
+     -webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.75);
+}

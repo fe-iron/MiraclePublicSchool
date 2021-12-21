@@ -1,0 +1,180 @@
+*,html,body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+@media (max-width: 576px) { 
+
+        .top1 img{
+height: 70px;
+width: 70px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.top1 p{
+        font-size: 30px;
+    }
+
+}
+
+
+
+@media (max-width: 350px){
+    .top1 p{
+        font-size: 15px;
+        padding-top: 15px;
+    }
+
+        .top1 img{
+    height: 50px;
+    width: 50px;
+    }
+}
+.bg-warning {
+    background-color: #e4831f!important;
+  
+}
+
+
+
+.top ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+
+.navbar .navbar-nav .nav-link{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+.text-warning{
+    color: #e4831f!important;
+}
+
+.btn-warning{
+    background-color: #e4831f!important;
+    border: none;
+    color: white;
+
+}
+
+
+
+
+
+
+.founder h5{
+    color: #333;
+    text-align:left;
+    /*text-transform: uppercase;*/
+    
+    font-weight: bold;
+    position: relative;
+    margin: 25px 0 50px;
+}
+.founder h5::after {
+    content: "";
+    width: 40px;
+    position: absolute;
+    /*margin: 0 auto;*/
+    height: 3px;
+    background:#858af3;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+}
+
+
+.founder h2 {
+    color: #333;
+    text-align:left;
+    text-transform: uppercase;
+    
+    font-weight: bold;
+    position: relative;
+    margin: 25px 0 50px;
+}
+.founder h2::after {
+    content: "";
+    width: 100px;
+    position: absolute;
+    margin: 0 auto;
+    height: 3px;
+    background: #8186f0;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+}
+
+
+.padding-founder{
+    background: linear-gradient(to right, rgb(123, 119, 160), rgb(105, 94, 220), rgb(95, 104, 171));
+    padding: 41px 100px;
+
+}
+
+
+.padding-founder p{
+    font-size: 1.2rem;
+}
+
+
+
+@media (max-width: 575.98px) {
+
+
+.padding-founder{
+    background: linear-gradient(to right, rgb(123, 119, 160), rgb(105, 94, 220), rgb(95, 104, 171));
+    padding: 40px 10px;
+}
+
+.padding-founder p{
+    font-size: 1rem;
+}
+
+
+}
+
+.founder img{
+        border-radius: 2rem;
+        -webkit-box-shadow: 0px 2px 46px -11px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 2px 46px -11px rgba(0,0,0,0.75);
+        box-shadow: 0px 2px 46px -11px rgba(0,0,0,0.75);
+}
+
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 50px!important;
+}
+
+
+

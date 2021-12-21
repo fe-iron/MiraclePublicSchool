@@ -1,0 +1,240 @@
+
+
+*,html,body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+@media (max-width: 576px) { 
+
+        .top1 img{
+height: 70px;
+width: 70px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.top1 p{
+        font-size: 30px;
+    }
+
+}
+
+
+
+@media (max-width: 350px){
+    .top1 p{
+        font-size: 15px;
+        padding-top: 15px;
+    }
+
+        .top1 img{
+    height: 50px;
+    width: 50px;
+    }
+}
+
+
+
+
+
+
+.top ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.top1 img{
+height: 90px;
+width: 100px;
+
+}
+
+
+
+
+.navbar .navbar-nav .nav-link{
+    font-size: 20px;
+    color: white;
+}
+
+/*border-bottom: 2px solid white;
+*/}
+
+
+
+
+.text-warning{
+    color: #e4831f!important;
+}
+
+.btn-warning{
+    background-color: #e4831f!important;
+    border: none;
+    color: white;
+
+}
+
+
+.padding-about p{
+    font-size: 1.2rem;
+}
+
+
+.padding-about{
+    background: linear-gradient(to right, rgb(123, 119, 160), rgb(105, 94, 220), rgb(95, 104, 171));
+    padding: 41px 100px;
+
+}
+
+ .about-1 h1{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+
+h5 {
+    color: #333;
+    text-align:left;
+    text-transform: uppercase;
+    
+    font-weight: bold;
+    position: relative;
+    margin: 25px 0 50px;
+}
+h5::after, .mission h3::after {
+    content: "";
+    width: 60px;
+    position: absolute;
+    /*margin: 0 auto;*/
+    height: 3px;
+    background: #4f54c8;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+}
+
+
+h2{
+    color: #333;
+    text-align:left;
+    text-transform: uppercase;
+    
+    font-weight: bold;
+    position: relative;
+    margin: 25px 0 50px;
+}
+h2::after {
+    content: "";
+    width: 60px;
+    position: absolute;
+    margin: 0 auto;
+    height: 3px;
+    background: #e4831f;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+}
+
+
+
+
+.about-1{
+    background-image: url(../../images/teacher-unit.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+    background-attachment: fixed;
+    filter: brightness(70%);
+}
+
+
+
+.about-3 img ,.about-4 img,.huminity img{
+
+border-radius: 30px;
+-webkit-box-shadow: 0px -2px 50px -10px rgba(10,10,10,1);
+-moz-box-shadow: 0px -2px 50px -10px rgba(10,10,10,1);
+box-shadow: 0px -2px 50px -10px rgba(10,10,10,1);
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 50px!important;
+}
+
+.
+
+ .about-1 h1{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.tarana{
+    line-height: .5rem;
+}
+
+.huminity{
+    background-color:#eae1e1;
+}
+
+.card{
+    background-color:#f5eaea;
+    border: none;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    color: #4a1769;
+}
+
+
+@media (max-width: 1200px){
+ .tarana1 b, strong {
+    font-weight: bolder;
+    line-height: 1rem;
+}
+}
+
+
+@media(max-width: 576px){
+    .padding-about{
+    background: linear-gradient(to right, rgb(123, 119, 160), rgb(105, 94, 220), rgb(95, 104, 171));
+    padding: 25px 25px;
+
+}
+}
+
+
+
+@media(max-width: 576px){
+    .padding-about p {
+    font-size: 1rem;
+}
+}
+
+
+

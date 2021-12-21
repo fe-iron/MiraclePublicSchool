@@ -1,0 +1,9 @@
+Web mail:
+email: contact@miraclepublicschool.com
+password: 06FVb{Yi#kA{
+
+
+DB
+dbname = 'apnapaqh_miracle_public_school'
+password = '=UZ3y3d5YAuv'
+usrname = 'apnapaqh_miracle_public_school'

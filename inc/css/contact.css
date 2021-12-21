@@ -1,0 +1,176 @@
+*,html,body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+.fa-5x {
+    font-size: 5em;
+    color: #6066d6;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+@media (max-width: 576px) { 
+
+        .top1 img{
+height: 70px;
+width: 70px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.top1 p{
+        font-size: 30px;
+    }
+
+}
+
+
+
+@media (max-width: 350px){
+    .top1 p{
+        font-size: 15px;
+        padding-top: 15px;
+    }
+
+        .top1 img{
+    height: 50px;
+    width: 50px;
+    }
+}
+.bg-warning {
+    background-color: #e4831f!important;
+  
+}
+
+
+
+.top ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.top1 img{
+height: 140px;
+width: 140px;
+
+}
+
+
+
+
+.navbar .navbar-nav .nav-link{
+    font-size: 20px;
+    color: white;
+}
+
+
+.bg-warning {
+    background-color: #e4831f!important;
+  
+}
+
+
+.text-warning{
+    color: #e4831f!important;
+}
+
+.btn-warning{
+    background-color: #e4831f!important;
+    border: none;
+    color: white;
+
+}
+
+
+
+
+.padding-contact{
+   background: linear-gradient(to right, rgb(123, 119, 160), rgb(105, 94, 220), rgb(95, 104, 171));
+    padding: 41px 100px;
+    margin: auto;
+
+}
+
+.padding-contact p{
+    font-size: 1.2rem;
+    
+}
+
+
+
+
+
+@media (max-width: 575.98px) {
+
+
+.padding-contact{
+    background: linear-gradient(to right, rgb(123, 119, 160), rgb(105, 94, 220), rgb(95, 104, 171));
+    padding: 40px 10px;
+}
+
+.padding-contact p{
+    font-size: 1rem;
+}
+
+
+}
+
+form input,form textarea,.contact-detail img,.contact-person,iframe{
+    -webkit-box-shadow: 4px 2px 19px 0px rgba(110,106,102,1);
+-moz-box-shadow: 4px 2px 19px 0px rgba(110,106,102,1);
+box-shadow: 4px 2px 19px 0px rgba(110,106,102,1);
+}
+
+
+
+/*end of form*/
+
+.contact-detail .carousel-inner{
+    border-radius: 10px;
+
+}
+
+.contact-detail .inner-carousel {
+     -webkit-box-shadow: 4px 2px 19px 0px rgba(110,106,102,1);
+-moz-box-shadow: 4px 2px 19px 0px rgba(110,106,102,1);
+box-shadow: 4px 2px 19px 0px rgba(110,106,102,1);
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+.contact-detail .contact-person p{
+   
+   font-size: 11px;
+ }
+}
+
+@media (min-width: 500px) and (max-width: 768px) { 
+
+    .contact-detail .contact-person p{
+   
+   font-size: 10px;
+}
+}
+@media (max-width: 500px) {
+.contact-detail .contact-person p{
+   
+   font-size: 9px;
+ }
+}
+
